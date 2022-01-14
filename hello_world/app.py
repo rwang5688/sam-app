@@ -65,7 +65,7 @@ def lambda_handler(event, context):
             "Content-Type": "application/json"
         },
         "body": json.dumps({
-            "Greeting": "Hello World!!! from Python handler, version: 2022-01-12.",
+            "Greeting": "Hello World from sam-app-yyyymmdd!",
             "result": result
         })
     }
